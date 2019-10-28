@@ -32,6 +32,6 @@ for i in range(1, 10):
         svg_font = svg2rlg("edited_fonts/numbers/" + str(i - 1) + "_to_" + str(i) + "_" + str(j) + ".svg")
         svg_font.scale(0.04, 0.04)
         renderPDF.draw(svg_font, canvas, 6 * (10 * i + j) - 50, 30)
-canvas.setFont('Futura', 12)
-canvas.drawString(200, 10, "Mioto Takahashi")
+canvas.setFont('Futura', 8)
+canvas.drawString(20, 20, "https://github.com/johnlime/Self_Organizing_Futura")
 canvas.save()
