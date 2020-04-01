@@ -1,4 +1,4 @@
-# Self_Organizing_Futura
+# Self Organizing Futura
 
 `python3 src/svg_stack.py` produces the main poster that showcases the font.
 
